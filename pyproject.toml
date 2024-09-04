@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "setlist-stats"
+version = "0.1.0"
+description = ""
+authors = ["Chris <cwarren13@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pytz = "^2024.1"
+geopy = "^2.4.1"
+timezonefinder = "^6.5.2"
+pydiscourse = "^1.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
